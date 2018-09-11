@@ -17,7 +17,7 @@
             {
                 "label": "Chromodynamics Delek",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ChromodynamicsDelek.tmTheme"
+                "path": "./themes/delek.color-theme.json"
             }
         ]
     }
