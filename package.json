@@ -1,11 +1,11 @@
 {
-    "name": "theme-chromodynamics",
-    "displayName": "theme-chromodynamics",
-    "description": "chromodynamics color theme for vscode",
-    "repository": "leido/vscode-theme-chromodynamics",
+    "name": "theme-chromodynamics-delek",
+    "displayName": "theme-chromodynamics-delek",
+    "description": "A theme combining Chromodynamics and Delek color themes.",
+    "repository": "ambv/vscode-theme-chromodynamics-delek",
     "icon": "images/icon.png",
-    "version": "1.0.8",
-    "publisher": "lei",
+    "version": "1.0.0",
+    "publisher": "ambv",
     "engines": {
         "vscode": "^1.4.0"
     },
@@ -15,9 +15,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Chromodynamics",
+                "label": "Chromodynamics Delek",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Chromodynamics.tmTheme"
+                "path": "./themes/ChromodynamicsDelek.tmTheme"
             }
         ]
     }
