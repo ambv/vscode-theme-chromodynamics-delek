@@ -71,7 +71,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#00cf12</string>
+                <string>#a6e22e</string>
             </dict>
         </dict>
         <dict>
@@ -144,7 +144,7 @@
             <key>name</key>
             <string>String</string>
             <key>scope</key>
-            <string>string, punctuation.definition.string, storage.type.string</string>
+            <string>string.quoted, punctuation.definition.string, storage.type.string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -164,13 +164,24 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Docstring Quotes (specially for Atom)</string>
+            <string>F-String</string>
             <key>scope</key>
-            <string>string.quoted.docstring string</string>
+            <string>meta.fstring.python storage.type.string.python, meta.fstring.python punctuation.definition string.quoted.single.python, meta.fstring.python punctuation.definition string.quoted.multi.python, , meta.fstring.python punctuation.definition string.quoted.raw.single.python, meta.fstring.python punctuation.definition string.quoted.raw.multi.python</string> 
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#7c9f57</string>
+                <string>#FFED44</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String interpolation (barely visible to distinguish from f-strings)</string>
+            <key>scope</key>
+            <string>string.quoted.single.python constant.character.format.placeholder.other.python</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9C9130</string>
             </dict>
         </dict>
         <dict>
